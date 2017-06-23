@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.ocx"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.OCX"
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form frmPendaftaran 
    Appearance      =   0  'Flat
@@ -50,7 +50,7 @@ Begin VB.Form frmPendaftaran
          _ExtentX        =   2355
          _ExtentY        =   661
          _Version        =   393216
-         Format          =   188022785
+         Format          =   57212929
          CurrentDate     =   -328716
          MinDate         =   -328716
       End

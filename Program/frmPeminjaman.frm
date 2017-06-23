@@ -145,7 +145,7 @@ Begin VB.Form frmPeminjaman
    Begin VB.Image imgAnggota 
       Height          =   1440
       Left            =   6720
-      Picture         =   "frmPeminjaman.frx":048A
+      Picture         =   "frmPeminjaman.frx":000C
       Stretch         =   -1  'True
       ToolTipText     =   "Foto Anggota"
       Top             =   240
@@ -208,7 +208,7 @@ Begin VB.Form frmPeminjaman
    Begin VB.Image imgJaminan 
       Height          =   1305
       Left            =   6720
-      Picture         =   "frmPeminjaman.frx":13D9
+      Picture         =   "frmPeminjaman.frx":0F5B
       Stretch         =   -1  'True
       ToolTipText     =   "Foto Bukti Jaminan"
       Top             =   2280

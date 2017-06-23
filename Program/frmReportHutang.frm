@@ -78,7 +78,7 @@ Begin VB.Form frmReportHutang
       Begin VB.Image imgJaminan 
          Height          =   1800
          Left            =   120
-         Picture         =   "frmReportHutang.frx":048A
+         Picture         =   "frmReportHutang.frx":000C
          Stretch         =   -1  'True
          ToolTipText     =   "Foto bukti jaminan"
          Top             =   240
@@ -306,7 +306,7 @@ Begin VB.Form frmReportHutang
    Begin VB.Image imgAnggota 
       Height          =   2000
       Left            =   6960
-      Picture         =   "frmReportHutang.frx":1FDD
+      Picture         =   "frmReportHutang.frx":1B5F
       Stretch         =   -1  'True
       ToolTipText     =   "Foto Anggota"
       Top             =   240

@@ -12,7 +12,7 @@ Begin VB.Form frmLogin
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   Picture         =   "frmLogin.frx":10CA
+   Picture         =   "frmLogin.frx":000C
    ScaleHeight     =   4860
    ScaleWidth      =   9165
    Begin VB.TextBox txtNIK 
@@ -219,7 +219,7 @@ End Sub
 
 Private Sub cmdLogin_Click()
 retry: 'label retry
-On Error GoTo errHandler 'jika terjadi error maka loncat dan menuju label errhandler
+'On Error GoTo errHandler 'jika terjadi error maka loncat dan menuju label errhandler
     errMsg.Visible = False 'inisialisasi errmsg dan shapemsg
     shapeMsg.Visible = False
     Call loading 'animasi loading di jalankan di frmlogin
@@ -250,9 +250,9 @@ On Error GoTo errHandler 'jika terjadi error maka loncat dan menuju label errhan
     'dihindarkan agar jalur eksekusi tidak eksekusi beberapa pernyataan di bawah (di bawah label errHandler)
     'karena beberapa pertanyaan tersebut dikhususkan jika eksekusi tidak berjalan lancar
     
-errHandler: '
-    s = MsgBox("[Error] kesalahan saat mencoba untuk menghubungkan ke server, silahkan coba lagi nanti", vbRetryCancel + vbInformation, "Kesalahan")
-    If s = vbRetry Then GoTo retry ' biasanya error berada pada koneksi program ke server, jika user klik retry maka akan kembali ke label retry di atas
+'errHandler: '
+'    s = MsgBox("[Error] kesalahan saat mencoba untuk menghubungkan ke server, silahkan coba lagi nanti", vbRetryCancel + vbInformation, "Kesalahan")
+'    If s = vbRetry Then GoTo retry ' biasanya error berada pada koneksi program ke server, jika user klik retry maka akan kembali ke label retry di atas
 End Sub
 
 Private Sub Form_Load()

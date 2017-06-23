@@ -48,7 +48,7 @@ Begin VB.Form frmTentang
    Begin VB.Image picIcon 
       Height          =   855
       Left            =   240
-      Picture         =   "frmTentang.frx":048A
+      Picture         =   "frmTentang.frx":000C
       Stretch         =   -1  'True
       Top             =   360
       Width           =   855
@@ -111,6 +111,6 @@ Private Sub Form_Load()
 'isi listbox
     listBoxCreditsList.Clear
     listBoxCreditsList.AddItem "Fajar Aziz Laksono"
-	listBoxCreditsList.AddItem "email : Fajarazizlaksono@gmail.com"
+        listBoxCreditsList.AddItem "email : Fajarazizlaksono@gmail.com"
 End Sub
 

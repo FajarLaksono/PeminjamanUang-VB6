@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.1#0"; "MSCOMCTL.OCX"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.MDIForm frmMenuUtama 
    Appearance      =   0  'Flat
    BackColor       =   &H80000006&
@@ -11,58 +11,37 @@ Begin VB.MDIForm frmMenuUtama
    Icon            =   "frmMenuUtama.frx":0000
    LinkTopic       =   "MDIForm1"
    WindowState     =   2  'Maximized
-   Begin MSComctlLib.Toolbar Toolbar 
-      Align           =   1  'Align Top
-      Height          =   840
+   Begin MSComctlLib.StatusBar strBar 
+      Align           =   2  'Align Bottom
+      Height          =   495
       Left            =   0
       TabIndex        =   1
-      Top             =   0
+      Top             =   2625
       Width           =   9255
       _ExtentX        =   16325
-      _ExtentY        =   1482
-      ButtonWidth     =   3175
-      ButtonHeight    =   1429
-      Style           =   1
-      ImageList       =   "IconList"
+      _ExtentY        =   873
       _Version        =   393216
-      BeginProperty Buttons {66833FE8-8583-11D1-B16A-00C0F0283628} 
-         NumButtons      =   5
-         BeginProperty Button1 {66833FEA-8583-11D1-B16A-00C0F0283628} 
-            Caption         =   "Pendaftaran Anggota"
-            Key             =   "Pendaftaran"
-            Object.ToolTipText     =   "Pendaftaran Anggota Baru"
-            ImageIndex      =   1
+      BeginProperty Panels {8E3867A5-8586-11D1-B16A-00C0F0283628} 
+         NumPanels       =   4
+         BeginProperty Panel1 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Style           =   6
+            Alignment       =   1
+            TextSave        =   "6/23/2017"
          EndProperty
-         BeginProperty Button2 {66833FEA-8583-11D1-B16A-00C0F0283628} 
-            Caption         =   "Peminjaman"
-            Key             =   "Peminjaman"
-            Object.ToolTipText     =   "Peminjaman uang untuk anggota"
-            ImageIndex      =   2
+         BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+            Style           =   5
+            Alignment       =   1
+            TextSave        =   "4:05 PM"
          EndProperty
-         BeginProperty Button3 {66833FEA-8583-11D1-B16A-00C0F0283628} 
-            Caption         =   "Pengembalian"
-            Key             =   "Pengembalian"
-            Object.ToolTipText     =   "Pengembalian Uang"
-            ImageIndex      =   3
+         BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
          EndProperty
-         BeginProperty Button4 {66833FEA-8583-11D1-B16A-00C0F0283628} 
-            Caption         =   "Daftar Peminjam"
-            Key             =   "Daftar"
-            Object.ToolTipText     =   "Daftar anggota yang meminjam uang"
-            ImageIndex      =   4
-         EndProperty
-         BeginProperty Button5 {66833FEA-8583-11D1-B16A-00C0F0283628} 
-            Caption         =   "Logout"
-            Key             =   "Logout"
-            Object.ToolTipText     =   "Keluar"
-            ImageIndex      =   5
+         BeginProperty Panel4 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
          EndProperty
       EndProperty
-      BorderStyle     =   1
    End
    Begin MSComctlLib.ImageList IconList 
-      Left            =   2040
-      Top             =   1200
+      Left            =   1920
+      Top             =   1680
       _ExtentX        =   1005
       _ExtentY        =   1005
       BackColor       =   -2147483643
@@ -73,58 +52,73 @@ Begin VB.MDIForm frmMenuUtama
       BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
          NumListImages   =   5
          BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMenuUtama.frx":048A
-            Key             =   "Pendaftaran"
+            Picture         =   "frmMenuUtama.frx":000C
+            Key             =   ""
          EndProperty
          BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMenuUtama.frx":08DC
-            Key             =   "Peminjaman"
+            Picture         =   "frmMenuUtama.frx":045E
+            Key             =   ""
          EndProperty
          BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMenuUtama.frx":0D2E
-            Key             =   "Pengembalian"
+            Picture         =   "frmMenuUtama.frx":08B0
+            Key             =   ""
          EndProperty
          BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMenuUtama.frx":1180
-            Key             =   "Daftar"
+            Picture         =   "frmMenuUtama.frx":0D02
+            Key             =   ""
          EndProperty
          BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
-            Picture         =   "frmMenuUtama.frx":15D2
-            Key             =   "Logout"
+            Picture         =   "frmMenuUtama.frx":1154
+            Key             =   ""
          EndProperty
       EndProperty
    End
-   Begin MSComctlLib.StatusBar strBar 
-      Align           =   2  'Align Bottom
-      Height          =   375
+   Begin MSComctlLib.Toolbar Toolbar 
+      Align           =   1  'Align Top
+      Height          =   840
       Left            =   0
       TabIndex        =   0
-      Top             =   2745
+      Top             =   0
       Width           =   9255
       _ExtentX        =   16325
-      _ExtentY        =   661
+      _ExtentY        =   1482
+      ButtonWidth     =   3175
+      ButtonHeight    =   1429
+      Appearance      =   1
+      Style           =   1
+      ImageList       =   "IconList"
       _Version        =   393216
-      BeginProperty Panels {8E3867A5-8586-11D1-B16A-00C0F0283628} 
-         NumPanels       =   4
-         BeginProperty Panel1 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
-            Style           =   5
-            Alignment       =   1
-            TextSave        =   "8:03"
+      BeginProperty Buttons {66833FE8-8583-11D1-B16A-00C0F0283628} 
+         NumButtons      =   5
+         BeginProperty Button1 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Caption         =   "Pendaftaran Anggota"
+            Key             =   "Pendaftaran"
+            Object.ToolTipText     =   "Pendaftaran anggota"
+            ImageIndex      =   1
          EndProperty
-         BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
-            Style           =   6
-            Alignment       =   1
-            TextSave        =   "09/06/2017"
+         BeginProperty Button2 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Caption         =   "Peminjaman"
+            Key             =   "Peminjaman"
+            Object.ToolTipText     =   "Peminjaman uang"
+            ImageIndex      =   2
          EndProperty
-         BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
-            Alignment       =   1
-            Text            =   "NIK"
-            TextSave        =   "NIK"
+         BeginProperty Button3 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Caption         =   "Pengembalian"
+            Key             =   "Pengembalian"
+            Object.ToolTipText     =   "Pengembalian uang"
+            ImageIndex      =   3
          EndProperty
-         BeginProperty Panel4 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
-            Alignment       =   1
-            Text            =   "namaPetugas"
-            TextSave        =   "namaPetugas"
+         BeginProperty Button4 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Caption         =   "Daftar Peminjam"
+            Key             =   "Daftar"
+            Object.ToolTipText     =   "Daftar Anggota yang meminjam"
+            ImageIndex      =   4
+         EndProperty
+         BeginProperty Button5 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Caption         =   "Keluar"
+            Key             =   "Logout"
+            Object.ToolTipText     =   "Keluar"
+            ImageIndex      =   5
          EndProperty
       EndProperty
    End

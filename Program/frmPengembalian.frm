@@ -141,7 +141,7 @@ Begin VB.Form frmPengembalian
    Begin VB.Image imgAnggota 
       Height          =   2565
       Left            =   6120
-      Picture         =   "frmPengembalian.frx":048A
+      Picture         =   "frmPengembalian.frx":000C
       Stretch         =   -1  'True
       Top             =   240
       Width           =   2565
