@@ -33,4 +33,3 @@ beberapa control yang kemungkinan hilang adalah
 
 =============================
 Created By Fajar Aziz Laksono
-email : Fajarazizlaksono@gmail.com
