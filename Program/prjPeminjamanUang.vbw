@@ -1,0 +1,13 @@
+frmLogin = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmMenuUtama = 0, 0, 0, 0, C, 25, 25, 904, 470, C
+frmPendaftaran = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmTableAnggota = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmPeminjaman = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmPengembalian = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmTablePeminjaman = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmTentang = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+mdlDB = 50, 50, 929, 495, 
+mdlSystem = 0, 0, 0, 0, C
+frmlLoadingBarMainMenu = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmReportAnggota = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmReportHutang = 0, 0, 0, 0, C, 0, 0, 0, 0, C

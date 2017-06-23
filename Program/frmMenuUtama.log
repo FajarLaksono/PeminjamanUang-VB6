@@ -1,0 +1,23 @@
+Line 14: Class MSComctlLib.Toolbar of control Toolbar was not a loaded control class.
+Line 63: Class MSComctlLib.ImageList of control IconList was not a loaded control class.
+Line 97: Class MSComctlLib.StatusBar of control strBar was not a loaded control class.
+Line 3: Property Icon in frmMenuUtama could not be set.
+Line 21: The property name _ExtentX in Toolbar is invalid.
+Line 22: The property name _ExtentY in Toolbar is invalid.
+Line 23: The property name ButtonWidth in Toolbar is invalid.
+Line 24: The property name ButtonHeight in Toolbar is invalid.
+Line 25: The property name Style in Toolbar is invalid.
+Line 26: The property name ImageList in Toolbar is invalid.
+Line 27: The property name _Version in Toolbar is invalid.
+Line 60: The property name Buttons in Toolbar is invalid.
+Line 66: The property name _ExtentX in IconList is invalid.
+Line 67: The property name _ExtentY in IconList is invalid.
+Line 69: The property name ImageWidth in IconList is invalid.
+Line 70: The property name ImageHeight in IconList is invalid.
+Line 71: The property name MaskColor in IconList is invalid.
+Line 72: The property name _Version in IconList is invalid.
+Line 95: The property name Images in IconList is invalid.
+Line 104: The property name _ExtentX in strBar is invalid.
+Line 105: The property name _ExtentY in strBar is invalid.
+Line 106: The property name _Version in strBar is invalid.
+Line 129: The property name Panels in strBar is invalid.
